@@ -1,0 +1,9 @@
+#!/bin/bash
+=0;
+in=" "
+while [[ $in != "" ]];do
+	read in
+	let sum=sum+in
+done;
+echo $sum;
+
