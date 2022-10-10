@@ -1,0 +1,1 @@
+gcc counter.c -o counter
