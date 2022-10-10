@@ -1,0 +1,1 @@
+alias longest='data=""; max=""; test="quit"; while [[ ${data} != ${test} ]]; do read data; if [ ${#max} -lt ${#data} ]; then max=$data; fi; done; echo $max 1>&2; echo ${#max};'
